@@ -5701,8 +5701,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: I stumble around to the kitchen drawer and grab the flashlight managing
-    to not cut myself in the process.
+  m_text: I stumble around to the kitchen drawer and grab the <color=#FFEB04>flashlight<sprite
+    index=0 color=#FFEB04></color> managing to not cut myself in the process.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
   m_sharedMaterial: {fileID: 3858221336845940023, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
@@ -5721,7 +5721,7 @@ MonoBehaviour:
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: 00758de9029cb1849a5c2c4aa8170c5f, type: 2}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
   m_TextStyleHashCode: -1183493901
@@ -16208,7 +16208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1942800463
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16444,7 +16444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1962295828
 RectTransform:
   m_ObjectHideFlags: 0
