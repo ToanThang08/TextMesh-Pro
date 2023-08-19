@@ -1028,7 +1028,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Something sounds broken, I need to see what is going on.
+  m_text: Something sounds broken, I <color=red><b>need</b> to see</color> what is
+    going on.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
   m_sharedMaterial: {fileID: 3858221336845940023, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
@@ -1397,7 +1398,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Suddenly, I hear a sharp crash down the hall.
+  m_text: Suddenly, I hear a <i>sharp crash</i> down the hall.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
   m_sharedMaterial: {fileID: 3858221336845940023, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
@@ -9656,7 +9657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1021282406
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14358,7 +14359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1744270634
 RectTransform:
   m_ObjectHideFlags: 0
