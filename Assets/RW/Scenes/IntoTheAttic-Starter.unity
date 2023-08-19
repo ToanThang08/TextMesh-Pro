@@ -1895,7 +1895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &175077622
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9657,7 +9657,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1021282406
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11777,11 +11777,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'I make my way down the hall and go towards the kitchen.
+  m_text: '<line-indent=15%>I make my way down the hall and go towards the kitchen.
 
 
-    These old
-    wood floors are creaking just a little bit more tonight.'
+    These
+    old wood floors are creaking just a little bit more tonight.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
   m_sharedMaterial: {fileID: 3858221336845940023, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
