@@ -10025,7 +10025,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1056049757
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10901,7 +10901,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "What? Is someone there?\n\nNo. That\u2019s coming from above."
+  m_text: "<s>What? Is someone there?</s>\n\n<u>No. That\u2019s coming from above.</u>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
   m_sharedMaterial: {fileID: 3858221336845940023, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
@@ -16208,7 +16208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1942800463
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17296,11 +17296,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Knock
+  m_text: '<align="left">Knock
 
-    Knock
+    <align="center">Knock
 
-    Knock'
+    <align="right">Knock'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
   m_sharedMaterial: {fileID: 3858221336845940023, guid: 9a67b93d827de7248a52005584c3fe49, type: 2}
